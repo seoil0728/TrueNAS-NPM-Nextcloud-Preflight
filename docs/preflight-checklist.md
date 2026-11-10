@@ -50,13 +50,11 @@
 - [ ] Test Windows/macOS, Android and iOS from LAN Wi-Fi and external data.
 - [ ] Distinguish DNS errors from TCP refusal/timeout and TLS warnings. `ERR_CONNECTION_REFUSED` alone is not proof of DNS failure.
 
-## 6. Data safety and performance
+## 6. Data safety and synchronization
 
 - [ ] Confirm nested browser folder uploads with a test tree and file counts.
 - [ ] Explain desktop client's **bidirectional sync**: remote files may download, local files may upload, and deletion can propagate both ways.
 - [ ] Check pre-existing folder conflict risks, filters, Virtual Files and sync error list.
-- [ ] Validate actual PC/router/NAS Ethernet link negotiation. High-category cables and 2.5GbE ports can still negotiate at 100 Mbps due to faults or negotiation issues.
-- [ ] Test both one large file and many small files; network throughput differs from application processing speed.
 
 ## 7. AI report before installation
 
@@ -78,4 +76,3 @@ Do not begin version-specific installation steps until the report has been prese
 - [ ] WebDAV, mobile login, sync, uploads, downloads and sharing permissions work.
 - [ ] Nested folder counts and files match.
 - [ ] Backup/restore plan exists; restarting services and routers does not unexpectedly break access.
-- [ ] Network links remain stable at expected speeds.

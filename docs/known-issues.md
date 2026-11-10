@@ -28,7 +28,6 @@
 | MOB-03 | Intermittent Wi-Fi ERR_CONNECTION_REFUSED | FIELD REPORT | Self-recovered |
 | FILE-01 | Folder-upload menu skipped nested files | FIELD REPORT | No verified fix |
 | FILE-02 | Nextcloud folder drag-and-drop issue | UPSTREAM ISSUE | Tracker closed; verify deployed release |
-| LAN-01 | PC 1Gbps/100Mbps link instability | FIELD REPORT | Recurring, cause unknown |
 
 ---
 
@@ -138,13 +137,6 @@
 
 **AI warning:** Check the precise Nextcloud patch version, browser, storage target, upload method and release/backport history. This issue is **not evidence** of the menu-path symptom in FILE-01.
 
-## LAN-01 — 1Gbps to 100Mbps renegotiation and link flap
-
-**Observed:** 2026-11-08. A Windows PC with a 2.5GbE-capable Realtek NIC reported only **100 Mbps** and uploaded around **10 MB/s**. After a network interface restart it sometimes negotiated **1 Gbps** and uploads reached **112 MB/s**. It later disconnected intermittently and returned to 100 Mbps. Cable reseating and router LAN-port switching did not conclusively resolve it.
-
-**AI warning:** Verify **actual negotiated link speed** on both ends, cable terminations, port contact, adapter drivers, power-saving/EEE and a known-good replacement cable if practicable. A Cat8 marking is not proof of good cable condition.
-
-**Status as observed 2026-11-09:** Recurrent, underlying fault unverified. No claim that a specific cable, motherboard or router is defective.
 
 ---
 

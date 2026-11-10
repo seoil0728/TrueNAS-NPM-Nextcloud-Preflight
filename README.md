@@ -31,7 +31,7 @@ This project is a pre-installation reference for TrueNAS SCALE, Nextcloud, Nginx
 - DDNS hostname resolution and Let's Encrypt challenge reachability.
 - Nextcloud `trusted_domains`, `trusted_proxies`, reverse-proxy HTTPS redirect behavior.
 - Split DNS versus NAT loopback; mobile secure/private DNS differences.
-- Browser nested-folder uploads, bidirectional desktop sync, and actual negotiated Ethernet link speed.
+- Browser nested-folder uploads and bidirectional desktop synchronization.
 
 ## Evidence and privacy
 
